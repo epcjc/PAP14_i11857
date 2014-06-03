@@ -46,9 +46,9 @@
 		foreach ($resultname as $nameuser){
 			$newsusername = $nameuser['fullname'];
 		}
-		$data[] = array(id => $row['news_id'],title=>$row['title'],date=>$row['t'],text=>$row['text'],posted_by=>$newsusername,url=>"https://paginas.fe.up.pt/~ei10044/thedailynews",tags=>$tags);
+		$data[] = array(id => $row['news_id'],title=>$row['title'],date=>$row['t'],text=>$row['text'],posted_by=>$newsusername,url=>"https:/projetos.epcjc",tags=>$tags);
 	}
-		$o = array(result => "success", server_name => "Grupo04",data=>$data);
+		$o = array(result => "success", server_name => "SI",data=>$data);
 
 	echo json_encode($o);
 ?>

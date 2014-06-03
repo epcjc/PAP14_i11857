@@ -261,7 +261,7 @@ INSERT INTO "users" ("user_id","username","fullname","password","type","status")
 INSERT INTO "users" ("user_id","username","fullname","password","type","status") VALUES ('7','editor01','Marco Rocha','1234','2','');
 INSERT INTO "users" ("user_id","username","fullname","password","type","status") VALUES ('8','editor02','António Garcez','1234','2','');
 INSERT INTO "users" ("user_id","username","fullname","password","type","status") VALUES ('9','editor03','Pedro Barbosa','1234','2','');
-INSERT INTO "users" ("user_id","username","fullname","password","type","status") VALUES ('10','admin001','Marco Joel','1234','1','');
+INSERT INTO "users" ("user_id","username","fullname","password","type","status") VALUES ('10','admin001','Ruben Pacheco','1234','1','');
 
 ----
 -- Drop table for favoritos
