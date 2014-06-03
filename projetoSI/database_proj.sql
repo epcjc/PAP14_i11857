@@ -27,7 +27,7 @@ CREATE TABLE news (
 ----
 -- Data dump for news, a total of 22 rows
 ----
-INSERT INTO "news" ("news_id","title","text","user_id","username","url","t") VALUES ('1','Vídeo mostra Breivik a estacionar carrinha armadilhada antes do ataque','A televisão pública norueguesa divulgou esta segunda-feira, pela primeira vez, um vídeo que mostra o extremista Anders Behring Breivik a estacionar a carrinha armadilhada que provocou uma explosão e matou oito pessoas, em Oslo, em julho de 2011.
+INSERT INTO "news" ("news_id","title","text","user_id","username","url","t") VALUES ('1','Vídeo koljkl Breivik a estacionar carrinha armadilhada antes do ataque','A televisão pública norueguesa divulgou esta segunda-feira, pela primeira vez, um vídeo que mostra o extremista Anders Behring Breivik a estacionar a carrinha armadilhada que provocou uma explosão e matou oito pessoas, em Oslo, em julho de 2011.
 
 As imagens divulgadas pelo canal estatal NRK, que foram captadas pelas câmaras de videovigilância, mostram uma camioneta branca a ser estacionada junto dos serviços do Governo norueguês. Instantes depois, o condutor, envergando um uniforme, sai do veículo e afasta-se do local.
 
