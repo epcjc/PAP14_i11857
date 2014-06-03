@@ -35,11 +35,23 @@
         form.Show()
         form.Adicionar()
     End Sub
-    Private Sub ToolStripButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton1.Click
+    Private Sub ToolStripButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         End
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         ToolStripStatusLabel1.Text = Now()
+    End Sub
+
+    Private Sub MédicosToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MédicosToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub ConsultasToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ConsultasToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
     End Sub
 End Class

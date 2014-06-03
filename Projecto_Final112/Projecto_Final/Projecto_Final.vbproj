@@ -214,7 +214,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="Projecto_Final_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Consultas.mdf">
