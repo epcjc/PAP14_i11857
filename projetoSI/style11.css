@@ -1,0 +1,684 @@
+﻿/* Mudar aspecto da página no seu geral*/
+html
+{
+    background-color:#E8E8E8;
+}
+
+/*Alterar o aspecto da parte de login/registo*/
+#registo
+{
+    overflow:hidden;
+    background-color: #B0B0B0;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-family: Verdana;
+    font-size:11px;
+}
+
+#registo #message
+{
+    padding-top:0.4%;
+    padding-bottom:0.4%;
+    padding-left: 0.2%;
+    float: left;
+    padding-right:2%;
+    font-size:11px;
+}
+
+#registo #botoes
+{
+    float: left;
+}
+
+#registo #botoes .signin
+{
+  float: left;
+}
+
+#registo #botoes .register
+{
+  padding-top:0.2%;
+  float: left;
+}
+
+#registo #botoes .signin .button_s
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:11px;
+    border-bottom-style: ridge;
+}
+
+#registo #botoes .register .button_r
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:11px;
+    border-bottom-style: ridge;
+}
+
+#registo #botoes .logout 
+{
+  float: left;
+}
+
+#registo #botoes .registed_change
+{
+    float: left;
+}
+
+#registo #botoes .favorites
+{
+    float: left;
+}
+
+#registo #botoes .logout .button_r
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:11px;
+    border-bottom-style: ridge;
+}
+
+#registo #botoes .registed_change .button_chan
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:11px;
+    border-bottom-style: ridge;
+}
+
+#registo #botoes .favorites .button_chan
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:11px;
+    border-bottom-style: ridge;
+}
+
+/*Alterar aspecto sobre o cabeçalho da página!!*/
+#cabecalho_img  
+{
+    padding-left: 29%;
+    overflow:hidden;
+}
+
+/*Caracteristicas dos menus que estão entre o cabeçalho e a barra de login/registo*/
+#menu 
+{
+    text-align:center;
+    background-color: rgb(16,16,16);
+    font-family:Lucida Console;
+    font-size:small;
+    color: white;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+#menu ul
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#menu li
+{
+    display: inline-block;
+    list-style-type: none;
+    border-color: White;
+    border-left-style: ridge;
+    border-left-width: 2px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+#menu li a
+{
+    color:White;
+    text-decoration: none;
+}
+
+#menu li:first-child
+{
+    border-left-style: none;
+}
+
+/* Caracteristicas do body do html*/
+body 
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Times New Roman, Serif;
+    background-color: #E8E8E8 ;
+}
+
+/* Caracteristicas comuns a todas as img que apareçam no html*/
+img
+{
+    float: left;
+    padding-right: 10px;
+}
+
+/* Caracteristicas comuns a todas as h3 que apareçam no html*/
+h3
+{
+    float: left;
+    overflow:hidden;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+h4
+{
+    padding-top:3%;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#cabecalho
+{
+    overflow:hidden;
+    font-family: Verdana;
+    font-size:125%;
+    font-weight: bold;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+/* Caracteristicas das noticias*/
+#conteudo 
+{
+    width: 100%;
+	text-decoration: none;
+}
+
+#conteudo .noticia > td:first-child
+{
+    width: 49%;
+    padding-right:1%;
+}
+
+#conteudo .noticia > td:last-child
+{
+    width: 49%;
+    padding-left:1%;
+}
+
+#conteudo .noticia
+{
+    overflow: hidden;
+    position: relative;
+    font-family:Verdana;
+    text-align:justify;
+}
+
+#conteudo .noticia .autor
+{
+    font-size: 12px;
+    padding-bottom: 0.5%;
+}
+
+#conteudo .noticia .hora
+{
+    font-size: 12px;
+    padding-bottom: 1%;
+}
+
+#conteudo .noticia .url
+{
+    font-size: 12px;
+    padding-bottom: 1%;
+}
+
+/*CSS dos ícones*/
+#conteudo .noticia #like
+{
+    float: left;
+    padding-right: 2.5%;
+	padding-top: 1.5%;
+}
+
+#conteudo .noticia #like_id
+{
+    padding-right: 1%;
+	padding-top: 1.5%;
+}
+
+#conteudo .noticia #comentario
+{
+	padding-top: 1%;
+	font-family:Verdana;
+	font-size:smaller;
+}
+
+#conteudo .noticia #comentario #numero
+{
+	padding-top: 1%;
+}
+
+#conteudo .noticia .tag_img
+{
+    font-size: 12px;
+}
+
+#conteudo .noticia #comentario_img
+{
+    padding-top:5%;
+    float:left;
+    overflow:hidden;
+}
+
+#conteudo .noticia #comentario_img2
+{
+    padding-top:1%;
+    float:left;
+    overflow:hidden;
+}
+
+#conteudo .noticia #comentario_img #button_r
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+#conteudo .comments_show
+{
+    padding-top: 1%;
+    font-size:smaller;
+}
+
+#conteudo .comments_show #aux
+{
+    float:left;
+}
+
+#conteudo .comments_show #aux #comentario_img
+{
+    padding-bottom:2%;
+}
+
+#conteudo .comments_show #comentario_img
+{
+    overflow:hidden;
+}
+
+#conteudo #edit
+{
+    padding-top: 1%;
+    padding-left:1.5%;
+}
+
+/*CSS das páginas para alterar profile*/
+#conteudo .alterar
+{
+    font-family:Verdana;
+    font-size: 12px;
+}
+
+#conteudo .alterar .button_c
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:14px;
+    border-bottom-style: ridge;
+    font-size: 12px;
+}
+
+#conteudo .alterar .opcao
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+#conteudo .register
+{
+    padding-top:5%;
+    font-family:Verdana;
+}
+
+#conteudo .register .button_c
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:14px;
+    border-bottom-style: ridge;
+}
+
+/*CSS do botão de editar e eliminar noticia*/
+#conteudo .noticia #botoes
+{
+    padding-top:1%;
+    padding-bottom:2%;
+}
+
+#conteudo .noticia  #botoes .registed_change
+{
+    float: left;
+    padding-right: 1%;
+}
+
+#conteudo .noticia  #botoes .delete_news
+{
+    float:left;
+}
+
+#conteudo .noticia  #botoes .registed_change .button_chan
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+#conteudo .noticia  #botoes .delete_news .button_chan
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+/*CSS do conteudo do index*/
+#conteudo_i
+{
+    width: 100%;
+	text-decoration: none;
+}
+
+#conteudo_i .noticia > td:first-child
+{
+    width: 49%;
+    padding-right:1%;
+}
+
+#conteudo_i .noticia > td:last-child
+{
+    width: 49%;
+    padding-left:1%;
+}
+
+#conteudo_i .noticia
+{
+    overflow: hidden;
+    position: relative;
+    font-family:Verdana;
+    text-align:justify;
+}
+
+#conteudo_i .noticia .autor
+{
+    font-size: 12px;
+    padding-bottom: 1%;
+}
+
+#conteudo_i .noticia .hora
+{
+    font-size: 12px;
+    padding-bottom: 1.5%;
+}
+
+#conteudo_i .noticia .url
+{
+    font-size: 12px;
+    padding-bottom: 1.5%;
+}
+
+/*CSS dos ícones*/
+#conteudo_i .noticia #like
+{
+    float: left;
+	padding-top: 2%;
+    padding-right: 2.5%;
+}
+
+#conteudo_i .noticia #comentario
+{
+	padding-top: 1%;
+	font-family:Verdana;
+	font-size:smaller;
+}
+
+#conteudo_i .noticia #comentario #numero
+{
+	padding-top: 1.5%;
+}
+
+#conteudo_i .noticia .tag_img
+{
+    font-size: 12px;
+}
+
+
+/*Alterar aspecto sobre a parte inicial da página de confirmação!!*/
+#image_title 
+{
+    padding-top: 2%;
+    padding-left: 29.5%;
+    overflow:hidden;
+}
+
+#message
+{
+    padding-top: 5%;
+    text-align:center;
+    font-size:x-large;
+    font-family:Verdana;
+}
+
+.button_b
+{
+    padding-top: 2%;
+    padding-left: 47%;
+}
+
+.button_b .button
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:14px;
+    border-bottom-style: ridge;
+}
+
+/*Página de registo*/
+#titulo_user
+{
+    font-family: Verdana;
+    padding-top: 3%;
+    font-size:medium;
+}
+
+#registo_user
+{
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#registo_user .register .suges_caract
+{
+    font-family: Verdana;
+    font-variant: small-caps;
+}
+
+#registo_user .register .button_r
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+#registo_user .register .button_c
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+#registo_user .register .confirm_pass
+{
+    color: Red;
+    font-family: Verdana;
+    font-size:12px;
+}
+
+/*CSS alterar profile*/
+#conteudo .register .confirm_pass
+{
+    color: Red;
+    font-family: Verdana;
+    font-size:12px;
+}
+
+/*CSS delete*/
+#conteudo .confirm_pass
+{
+    color: Red;
+    font-family: Verdana;
+    font-size:12px;
+}
+
+/* Alterar aspecto da tabela*/
+#tabelaUsers
+{
+    font-size:13px;
+    font-family:Verdana;
+    font-weight:bold;
+    padding-bottom:5%;
+}
+
+#tabelaUsers .table_user_initial > td
+{
+    padding-left:1em;
+    padding-right:1em;
+    text-align: center;
+    border-left-style: solid;
+    border-left-color:Black;
+    border-left-width:0.2em;
+}
+
+
+#tabelaUsers .table_user > td
+{
+    font-weight:normal;
+    font-size: 12px;
+    padding-left:1em;
+    padding-right:1em;
+    border-left-style: solid;
+    border-left-color:Black;
+    border-left-width:0.2em;
+    text-align: center;
+}
+
+#tabelaUsers .table_user_initial > td:first-child
+{
+    padding-left:1em;
+    padding-right:1em;
+    border-left-style: none;
+    text-align: center;
+}
+
+
+#tabelaUsers .table_user > td:first-child
+{
+    font-weight:normal;
+    font-size: 12px;
+    padding-left:1em;
+    padding-right:1em;
+    border-left-style: none;
+    text-align: center;
+}
+
+.search_name
+{
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.search_name .opcao
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+.search_name .button_c
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+.register
+{
+     padding-top:0.2%;
+}
+
+.register .button_r
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:12px;
+    border-bottom-style: ridge;
+}
+
+/* Alterar aspecto da parte da pesquisa */
+#registo #pesquisa #text
+{
+    float: right;
+    padding-right:0.2%;
+}
+
+#registo #pesquisa #imagem
+{
+    float: right;
+    padding-top:0.1%;
+    padding-right: 1%;
+}
+
+#registo #pesquisa #imagem .button_r
+{
+    background-color: Black;
+    color: White;
+    font-family: Verdana;
+    font-size:11px;
+    border-bottom-style: ridge;
+}    
+
+/* Mudar formulario de pesquisa avançada */
+#formulario
+{
+    font-family:Verdana;
+}
+
+

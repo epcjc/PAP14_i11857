@@ -30,7 +30,7 @@ width:100%;
 	<head>
 		<title>The Daily Life - Adicionar Noticias</title>
 		<meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style11.css">
 		<script type="text/javascript" src="lib/jquery.js">
 		</script>
 		<script type="text/javascript" src="script.js">
