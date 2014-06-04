@@ -30,7 +30,7 @@ width:100%;
 	<head>
 		<title>The Daily Life - Importar Noticias</title>
 		<meta charset="UTF-8">
-        <link rel="stylesheet" href="style11.css">
+        <link rel="stylesheet" href="style.css">
 		<script type="text/javascript" src="lib/jquery.js">
 		</script>
 		<script type="text/javascript" src="script.js">

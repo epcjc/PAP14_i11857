@@ -30,7 +30,7 @@ width:100%;
 	<head>
 		<title>The Daily Life - Alterar perfil</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="style11.css">
+		<link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
