@@ -97,6 +97,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ConsultasDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="consultarcomentarios.Designer.vb">
+      <DependentUpon>consultarcomentarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultarcomentarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,40 +110,28 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormConsultas.Designer.vb">
-      <DependentUpon>FormConsultas.vb</DependentUpon>
+    <Compile Include="consultarnoticias.Designer.vb">
+      <DependentUpon>consultarnoticias.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormConsultas.vb">
+    <Compile Include="consultarnoticias.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormConsultas2.Designer.vb">
-      <DependentUpon>FormConsultas2.vb</DependentUpon>
+    <Compile Include="consultarutilizadores.Designer.vb">
+      <DependentUpon>consultarutilizadores.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormConsultas2.vb">
+    <Compile Include="consultarutilizadores.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMédicos.Designer.vb">
-      <DependentUpon>FormMédicos.vb</DependentUpon>
+    <Compile Include="adicionarcliente.Designer.vb">
+      <DependentUpon>adicionarcliente.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormMédicos.vb">
+    <Compile Include="adicionarcliente.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMédicos2.Designer.vb">
-      <DependentUpon>FormMédicos2.vb</DependentUpon>
+    <Compile Include="adicionarnoticia.Designer.vb">
+      <DependentUpon>adicionarnoticia.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormMédicos2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormPacientes.Designer.vb">
-      <DependentUpon>FormPacientes.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormPacientes.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormPacientes2.Designer.vb">
-      <DependentUpon>FormPacientes2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormPacientes2.vb">
+    <Compile Include="adicionarnoticia.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -157,32 +151,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="consultarcomentarios.resx">
+      <DependentUpon>consultarcomentarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormConsultas.resx">
-      <DependentUpon>FormConsultas.vb</DependentUpon>
+    <EmbeddedResource Include="consultarnoticias.resx">
+      <DependentUpon>consultarnoticias.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormConsultas2.resx">
-      <DependentUpon>FormConsultas2.vb</DependentUpon>
+    <EmbeddedResource Include="consultarutilizadores.resx">
+      <DependentUpon>consultarutilizadores.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMédicos.resx">
-      <DependentUpon>FormMédicos.vb</DependentUpon>
+    <EmbeddedResource Include="adicionarcliente.resx">
+      <DependentUpon>adicionarcliente.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMédicos2.resx">
-      <DependentUpon>FormMédicos2.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPacientes.resx">
-      <DependentUpon>FormPacientes.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPacientes2.resx">
-      <DependentUpon>FormPacientes2.vb</DependentUpon>
+    <EmbeddedResource Include="adicionarnoticia.resx">
+      <DependentUpon>adicionarnoticia.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">

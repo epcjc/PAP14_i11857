@@ -1,4 +1,4 @@
-﻿Public Class FormPacientes2
+﻿Public Class adicionarnoticia
     Dim código_anterior As Integer
     Dim nome_anterior As String
     Dim distrito_anterior As String

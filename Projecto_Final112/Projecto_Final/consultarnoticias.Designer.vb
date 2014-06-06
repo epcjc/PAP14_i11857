@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormPacientes
+Partial Class consultarnoticias
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -31,17 +31,17 @@ Partial Class FormPacientes
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(12, 12)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(455, 236)
+        Me.DataGridView1.Size = New System.Drawing.Size(493, 249)
         Me.DataGridView1.TabIndex = 0
         '
-        'FormPacientes
+        'FormConsultas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(479, 268)
+        Me.ClientSize = New System.Drawing.Size(517, 273)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Name = "FormPacientes"
-        Me.Text = "FormPacientes"
+        Me.Name = "FormConsultas"
+        Me.Text = "FormConsultas"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormMédicos2
+Partial Class adicionarcliente
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.

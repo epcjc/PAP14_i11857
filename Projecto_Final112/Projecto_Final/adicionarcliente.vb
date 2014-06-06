@@ -1,4 +1,4 @@
-﻿Public Class FormMédicos2
+﻿Public Class adicionarcliente
     Dim contribuinte_anterior As Integer
     Dim nome_anterior As String
     Dim distrito_anterior As String

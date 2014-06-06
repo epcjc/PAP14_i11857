@@ -1,4 +1,4 @@
-﻿Public Class FormConsultas2
+﻿Public Class consultarutilizadores
     Dim consulta_anterior As Integer
     Dim data_anterior As Date
     Dim paciente_anterior As String

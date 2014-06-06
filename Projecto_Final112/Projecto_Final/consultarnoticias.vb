@@ -1,4 +1,4 @@
-﻿Public Class FormConsultas
+﻿Public Class consultarnoticias
 
     Private Sub FormConsultas_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'LISTAGEM DE CONSULTAS
@@ -66,7 +66,7 @@
         data = DataGridView1.Rows(e.RowIndex).Cells(1).Value
         paciente = DataGridView1.Rows(e.RowIndex).Cells(2).Value
         médico = DataGridView1.Rows(e.RowIndex).Cells(3).Value
-        Dim form As New FormConsultas2
+        Dim form As New consultarutilizadores
         form.MdiParent = Form1
         form.Show()
         form.Alterar(consulta, data, paciente, médico)

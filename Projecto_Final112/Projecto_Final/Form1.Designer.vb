@@ -28,19 +28,19 @@ Partial Class Form1
         Me.MédicosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdicionarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PacientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdicionarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AlterarPermiçõesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdicionarToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AlterarPermiçõesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -52,7 +52,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MédicosToolStripMenuItem, Me.PacientesToolStripMenuItem, Me.ConsultasToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(924, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1087, 24)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -75,6 +75,12 @@ Partial Class Form1
         Me.AdicionarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AdicionarToolStripMenuItem.Text = "Adicionar "
         '
+        'EliminarToolStripMenuItem
+        '
+        Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
+        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        '
         'PacientesToolStripMenuItem
         '
         Me.PacientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem, Me.AdicionarToolStripMenuItem1, Me.AlterarPermiçõesToolStripMenuItem, Me.EliminarToolStripMenuItem1})
@@ -93,6 +99,18 @@ Partial Class Form1
         Me.AdicionarToolStripMenuItem1.Name = "AdicionarToolStripMenuItem1"
         Me.AdicionarToolStripMenuItem1.Size = New System.Drawing.Size(167, 22)
         Me.AdicionarToolStripMenuItem1.Text = "Adicionar"
+        '
+        'AlterarPermiçõesToolStripMenuItem
+        '
+        Me.AlterarPermiçõesToolStripMenuItem.Name = "AlterarPermiçõesToolStripMenuItem"
+        Me.AlterarPermiçõesToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.AlterarPermiçõesToolStripMenuItem.Text = "Alterar Permições"
+        '
+        'EliminarToolStripMenuItem1
+        '
+        Me.EliminarToolStripMenuItem1.Name = "EliminarToolStripMenuItem1"
+        Me.EliminarToolStripMenuItem1.Size = New System.Drawing.Size(167, 22)
+        Me.EliminarToolStripMenuItem1.Text = "Eliminar"
         '
         'ConsultasToolStripMenuItem
         '
@@ -113,12 +131,18 @@ Partial Class Form1
         Me.AdicionarToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
         Me.AdicionarToolStripMenuItem2.Text = "Adicionar"
         '
+        'EliminarToolStripMenuItem2
+        '
+        Me.EliminarToolStripMenuItem2.Name = "EliminarToolStripMenuItem2"
+        Me.EliminarToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+        Me.EliminarToolStripMenuItem2.Text = "Eliminar"
+        '
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 539)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 505)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(924, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1087, 22)
         Me.StatusStrip1.TabIndex = 6
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -133,37 +157,13 @@ Partial Class Form1
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1000
         '
-        'EliminarToolStripMenuItem
-        '
-        Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
-        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.EliminarToolStripMenuItem.Text = "Eliminar"
-        '
-        'AlterarPermiçõesToolStripMenuItem
-        '
-        Me.AlterarPermiçõesToolStripMenuItem.Name = "AlterarPermiçõesToolStripMenuItem"
-        Me.AlterarPermiçõesToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
-        Me.AlterarPermiçõesToolStripMenuItem.Text = "Alterar Permições"
-        '
-        'EliminarToolStripMenuItem1
-        '
-        Me.EliminarToolStripMenuItem1.Name = "EliminarToolStripMenuItem1"
-        Me.EliminarToolStripMenuItem1.Size = New System.Drawing.Size(167, 22)
-        Me.EliminarToolStripMenuItem1.Text = "Eliminar"
-        '
-        'EliminarToolStripMenuItem2
-        '
-        Me.EliminarToolStripMenuItem2.Name = "EliminarToolStripMenuItem2"
-        Me.EliminarToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
-        Me.EliminarToolStripMenuItem2.Text = "Eliminar"
-        '
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, 24)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(924, 515)
+        Me.PictureBox1.Size = New System.Drawing.Size(1087, 481)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 9
         Me.PictureBox1.TabStop = False
@@ -172,7 +172,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(924, 561)
+        Me.ClientSize = New System.Drawing.Size(1087, 527)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.MenuStrip1)
