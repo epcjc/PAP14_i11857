@@ -1,4 +1,4 @@
-<?php require_once( 'couch/cms.php' ); ?> <!-- CMS - Configuração da página -->                        
+﻿<?php require_once( 'couch/cms.php' ); ?> <!-- CMS - Configuração da página -->                        
 <!--[if lt IE 7]>      
 <html class="no-js lt-ie9 lt-ie8 lt-ie7">
 <![endif]-->
@@ -47,7 +47,7 @@
                <!-- Barra Superior (Login) -->
                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav righty">
-                     <li><a href="http://news.simply-webspace.com.pt/couch/">Log in</a></li>
+                    <li><a href="http://projetos.epcjc.net/~i11857/couch/">Log in</a></li>
                   </ul>
                </div>
                <!-- /.navbar-collapse -->
@@ -379,4 +379,4 @@
       <script src="js/placeholders.min.js"></script>
       <script src="js/main.js"></script>
    </body>
-<?php COUCH::invoke(); ?> <!-- CMS - Configuração da página --> 
+	<?php COUCH::invoke(); ?>  <!-- CMS - Configuração da página --> 

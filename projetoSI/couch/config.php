@@ -11,7 +11,7 @@
     // 1.
     // If neccesary, define the full URL of your site including the subdomain, if any.
     // V.IMP: Don't forget the trailing slash!
-    //define( 'K_SITE_URL', 'http://www.test.com/subfolder1/subfolder2/mysite/' ); 
+    define( 'K_SITE_URL', 'http://projetos.epcjc.net/~i11857/' );  
 
     // 1b.
     // For security purpose, the 'index.php' file of Couch can be renamed to anything else.
@@ -39,16 +39,16 @@
     // MySQL settings. You need to get this info from your web host. 
     // 4.
     // Name of the database
-    define( 'K_DB_NAME', 'news_simply__webspace_com_pt_plnews' );
+    define( 'K_DB_NAME', 'i11857' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'MT140_plnews' );
+    define( 'K_DB_USER', 'i11857' );
     // 6.
     // Database password 
-    define( 'K_DB_PASSWORD', 'mysql' );
+    define( 'K_DB_PASSWORD', 'ByerbUt3' );
     // 7.
-    // MySQL hostname (it will usually be 'hostingmysql243.amen.pt' )
-    define( 'K_DB_HOST', 'hostingmysql243.amen.pt' );
+    // MySQL hostname (it will usually be 'localhost' )
+    define( 'K_DB_HOST', 'localhost' );
     // 7b.
     // Needed only if multiple instances of this CMS are to be installed in the same database
     // (please use only alphanumeric characters or underscore (NO hyphen) )
