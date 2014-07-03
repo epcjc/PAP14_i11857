@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -36,6 +37,9 @@ Partial Class Form2
         Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AutomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ManualDeAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -97,7 +101,7 @@ Partial Class Form2
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RelatóriosToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RelatóriosToolStripMenuItem, Me.AjudaToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(261, 24)
@@ -135,6 +139,19 @@ Partial Class Form2
         Me.AutomToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
         Me.AutomToolStripMenuItem.Text = "Automóveis por marca"
         '
+        'AjudaToolStripMenuItem
+        '
+        Me.AjudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ManualDeAjudaToolStripMenuItem})
+        Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
+        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.AjudaToolStripMenuItem.Text = "Ajuda"
+        '
+        'ManualDeAjudaToolStripMenuItem
+        '
+        Me.ManualDeAjudaToolStripMenuItem.Name = "ManualDeAjudaToolStripMenuItem"
+        Me.ManualDeAjudaToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
+        Me.ManualDeAjudaToolStripMenuItem.Text = "Manual de Ajuda"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -170,4 +187,7 @@ Partial Class Form2
     Friend WithEvents ClientesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AutomToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpProvider1 As System.Windows.Forms.HelpProvider
+    Friend WithEvents AjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
+    Friend WithEvents ManualDeAjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

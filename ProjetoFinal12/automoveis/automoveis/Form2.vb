@@ -33,4 +33,17 @@
     Private Sub AutomToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AutomToolStripMenuItem.Click
         Form8.Show()
     End Sub
+
+    Private Sub Form2_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub AjudaToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AjudaToolStripMenuItem.Click
+
+
+    End Sub
+
+    Private Sub ManualDeAjudaToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ManualDeAjudaToolStripMenuItem.Click
+        Help.ShowHelp(AcceptButton, "file://C:\Users\Ruben\Documents\GitHub\PAP14_i11857\ProjetoFinal12\automoveis\projetos.chm")
+    End Sub
 End Class
