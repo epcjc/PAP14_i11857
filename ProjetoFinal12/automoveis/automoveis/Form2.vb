@@ -40,7 +40,7 @@
 
     Private Sub AjudaToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AjudaToolStripMenuItem.Click
 
-        Help.ShowHelp(Me, "projetos.chm")
+        Help.ShowHelp(Me, "relatorio.chm")
     End Sub
 
     Private Sub ManualDeAjudaToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ManualDeAjudaToolStripMenuItem.Click

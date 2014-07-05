@@ -218,9 +218,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="relatorio.chm">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="relatorio.chm" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Database1.sdf">
