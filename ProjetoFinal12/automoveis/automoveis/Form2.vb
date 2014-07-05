@@ -40,13 +40,13 @@
 
     Private Sub AjudaToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AjudaToolStripMenuItem.Click
 
-        Help.ShowHelp(Me, "relatorio.chm")
+        Help.ShowHelp(Me, "C:\Users\Ruben\Documents\GitHub\PAP14_i11857\ProjetoFinal12\automoveis\automoveis\relatorio.chm")
     End Sub
 
     Private Sub ManualDeAjudaToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ManualDeAjudaToolStripMenuItem.Click
 
 
 
-        Help.ShowHelp(Me, "relatorio.chm")
+        Help.ShowHelp(Me, "C:\Users\Ruben\Documents\GitHub\PAP14_i11857\ProjetoFinal12\automoveis\automoveis\relatorio.chm")
     End Sub
 End Class
