@@ -49,7 +49,7 @@
                <!-- Barra Superior (Login) -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav righty">
-                     <li><a href="http://news.simply-webspace.com.pt/couch/">Log in</a></li>
+                     <li><a href="http://projetos.epcjc.net/couch/">Log in</a></li>
                   </ul>
                </div>
                <!-- /.navbar-collapse -->
