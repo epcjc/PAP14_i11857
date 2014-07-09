@@ -36,10 +36,11 @@ Partial Class Form2
         Me.AutomóveisNãoAlugadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AutomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
-        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ManualDeAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -64,7 +65,7 @@ Partial Class Form2
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(140, 69)
+        Me.Button2.Location = New System.Drawing.Point(140, 97)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(109, 23)
         Me.Button2.TabIndex = 2
@@ -73,7 +74,7 @@ Partial Class Form2
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(140, 127)
+        Me.Button4.Location = New System.Drawing.Point(140, 155)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(109, 23)
         Me.Button4.TabIndex = 4
@@ -92,7 +93,7 @@ Partial Class Form2
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(140, 98)
+        Me.Button5.Location = New System.Drawing.Point(140, 126)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(109, 23)
         Me.Button5.TabIndex = 6
@@ -152,11 +153,21 @@ Partial Class Form2
         Me.ManualDeAjudaToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
         Me.ManualDeAjudaToolStripMenuItem.Text = "Manual de Ajuda"
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(140, 69)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(109, 23)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "Inserir clientes"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(261, 159)
+        Me.ClientSize = New System.Drawing.Size(261, 190)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button4)
@@ -190,4 +201,5 @@ Partial Class Form2
     Friend WithEvents AjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
     Friend WithEvents ManualDeAjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 End Class

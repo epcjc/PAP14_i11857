@@ -49,4 +49,9 @@
 
         Help.ShowHelp(Me, "C:\Users\Ruben\Documents\GitHub\PAP14_i11857\ProjetoFinal12\automoveis\automoveis\relatorio.chm")
     End Sub
+
+    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
+        Form9.Show()
+
+    End Sub
 End Class

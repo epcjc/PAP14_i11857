@@ -124,11 +124,7 @@
             </div>
             <!-- Iframe c/ Metereologia da Zona do Porto -->
 <span style="display: block !important; width: 180px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.1.08545&bannertypeclick=wu_travel_globe1" title="Porto, Portugal Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_travel_globe1_metric&airportcode=LPPR&ForcedCity=Porto&ForcedState=Portugal&wmo=08545&language=BR" alt="Find more about Weather in Porto, PO" width="230" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.1.08545&bannertypeclick=wu_travel_globe1" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank"></a></span>
-            <!-- Subscrição da Newslleter -->
-            <div class="subscribe lefty">
-               <h3 class="sec-title">NEWSLETTER</h3>
-               <h6>Estará disponivel brevemente a subscrição da newsletter.</h6>
-            </div>
+           
             <!-- Banner lado direito inferior S/ Gestor de conteudos -->
             <div class="lefty ad-rt">
                <a href="#"><img alt="" src="img/samples/u1.jpg" /></a>

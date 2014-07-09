@@ -183,7 +183,7 @@
       <!-- Destaques -->
       <div class="container">
          <div class="float-width ticker">
-            <h3 class="cat-label1">DestaqueS</h3>
+            <h3 class="cat-label1">Destaques</h3>
             <ul class="newsticker">
 <!-- CMS - Gestor de Destaques -->                        
 <cms:editable  name='des1' label='Destaque de pagina' desc='1' hidden='1' type='text'>Awesome property!</cms:editable>
@@ -346,11 +346,7 @@
                   </ul>
                </div>
             </div>
-            <!-- Subscrição Newslleter -->
-            <div class="subscribe lefty">
-               <h3 class="sec-title">NEWSLETTER</h3>
-               <h6>Estará disponivel brevemente a subscrição da newsletter.</h6>
-            </div>
+          
             <!-- Box FACEBOOK - Iframe Like page Facebook Dev.-->
             <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width=140&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:370px; height:300px;" allowTransparency="true"></iframe>
             <!-- Banner Fundo - Sem Editor CMS -->
