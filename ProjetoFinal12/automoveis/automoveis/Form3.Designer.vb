@@ -47,6 +47,7 @@ Partial Class Form3
         Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         CType(Me.Database1DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ClientesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ClientesBindingNavigator, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -90,7 +91,7 @@ Partial Class Form3
         Me.ClientesBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.ClientesBindingNavigator.Name = "ClientesBindingNavigator"
         Me.ClientesBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.ClientesBindingNavigator.Size = New System.Drawing.Size(543, 25)
+        Me.ClientesBindingNavigator.Size = New System.Drawing.Size(924, 25)
         Me.ClientesBindingNavigator.TabIndex = 0
         Me.ClientesBindingNavigator.Text = "BindingNavigator1"
         '
@@ -193,10 +194,9 @@ Partial Class Form3
         Me.ClientesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.ClientesDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5})
         Me.ClientesDataGridView.DataSource = Me.ClientesBindingSource
-        Me.ClientesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ClientesDataGridView.Location = New System.Drawing.Point(0, 25)
+        Me.ClientesDataGridView.Location = New System.Drawing.Point(79, 201)
         Me.ClientesDataGridView.Name = "ClientesDataGridView"
-        Me.ClientesDataGridView.Size = New System.Drawing.Size(543, 143)
+        Me.ClientesDataGridView.Size = New System.Drawing.Size(778, 143)
         Me.ClientesDataGridView.TabIndex = 1
         '
         'DataGridViewTextBoxColumn1
@@ -204,6 +204,7 @@ Partial Class Form3
         Me.DataGridViewTextBoxColumn1.DataPropertyName = "id"
         Me.DataGridViewTextBoxColumn1.HeaderText = "id"
         Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.ReadOnly = True
         '
         'DataGridViewTextBoxColumn2
         '
@@ -229,11 +230,19 @@ Partial Class Form3
         Me.DataGridViewTextBoxColumn5.HeaderText = "carta_de_conducao"
         Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(106, 59)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(317, 20)
+        Me.TextBox1.TabIndex = 2
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(543, 168)
+        Me.ClientSize = New System.Drawing.Size(924, 450)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ClientesDataGridView)
         Me.Controls.Add(Me.ClientesBindingNavigator)
         Me.Name = "Form3"
@@ -271,4 +280,5 @@ Partial Class Form3
     Friend WithEvents DataGridViewTextBoxColumn3 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn4 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
 End Class

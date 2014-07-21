@@ -82,7 +82,7 @@
                      <li><a href="categoria.php?p=42">País</a></li>
                      <li><a href="categoria.php?p=41">Paredes</a></li>
                      <li><a href="categoria.php?p=40">Desporto</a></li>
-                     <li><a href="categoria.php?p=39">Programação</a></li>
+                     <li><a href="categoria.php?p=39">Tecnologia</a></li>
                      <li><a href="categoria.php?p=23">Mundial 2014</a></li>
                   </ul>
                </div>

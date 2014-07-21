@@ -84,7 +84,7 @@
                      <li><a href="categoria.php?p=42">País</a></li>
                      <li><a href="categoria.php?p=41">Paredes</a></li>
                      <li><a href="categoria.php?p=40">Desporto</a></li>
-                     <li><a href="categoria.php?p=39">Programação</a></li>
+                     <li><a href="categoria.php?p=39">Tecnologia</a></li>
                      <li><a href="categoria.php?p=23">Mundial 2014</a></li>
                   </ul>
                </div>
@@ -117,7 +117,7 @@
                         <img alt="" src="img/samples/z2.jpg" />
                      </li>
                      <li>
-                        <img alt="" src="img/samples/z2.jpg" />
+                        <img alt="" src="img/samples/z1.png" />
                      </li>
                   </ul>
                </div>
@@ -127,10 +127,10 @@
            
             <!-- Banner lado direito inferior S/ Gestor de conteudos -->
             <div class="lefty ad-rt">
-               <a href="#"><img alt="" src="img/samples/u1.jpg" /></a>
+               <a href="http://www.publico.pt/"><img alt="" src="img/samples/u1.jpg" /></a>
             </div>
          </div>
-      </div>
+      </div>     
       <!-- Rodapé -->
       <div class="copy-rt-ftr">
          <div class="container">

@@ -12,4 +12,8 @@
         Me.ClientesTableAdapter.Fill(Me.Database1DataSet.clientes)
 
     End Sub
+
+    Private Sub TextBox1_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox1.TextChanged
+        Me.ClientesTableAdapter.FillBy(Me.Database1DataSet.clientes, Me.TextBox1.Text)
+    End Sub
 End Class
